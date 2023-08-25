@@ -44,7 +44,7 @@ spec:
           labelSelector:
             matchLabels:
               app: skiapp          
-      tolerations:
-        - key: 'karpenter'
-          operator: 'Exists'
-          effect: 'NoSchedule'                
+      # tolerations:
+      #   - key: 'karpenter'
+      #     operator: 'Exists'
+      #     effect: 'NoSchedule'                
